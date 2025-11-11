@@ -17,7 +17,7 @@ console.log("Result2:",doubled2)
 
 
 const result = numbers
-    console.log(n);
+    
     .map(n => n * 2)
     .map(n => n + 1)
     .filter(n => n > 5);
