@@ -1,7 +1,7 @@
 
 // Sequential (one after another): Run in order
 console.log("-- Sewuential (one after another");
-export const delay = (ms) => new Promise(res => setTimeout(res,ms));
+const delay = (ms) => new Promise(res => setTimeout(res,ms));
 
 async function sequentialDemo(){
     console.log("Start Sequential");

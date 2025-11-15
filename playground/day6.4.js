@@ -25,3 +25,5 @@ describe("Parallel wait test", () => {
 
     });
 });
+
+// npx wdio run wdio.conf.js  -- to run
