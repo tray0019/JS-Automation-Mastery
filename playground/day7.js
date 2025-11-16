@@ -22,7 +22,4 @@ class ConditionError extends Error {
 
 throw new TimeoutError("Waited too long");
 
-console.log();
-console.log("--- GUard Clauses ---");
-
 
